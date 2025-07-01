@@ -8,7 +8,7 @@ Power BI Interactive Attrition Report for HR Analytics Dataset
 1. [Overview](#overview)
 2. [Dataset](#dataset)
 3. [Data Preprocessing](#data-preprocessing)
-4. [Key Features & Visualizations](#key-features--visualizations)
+4. [Key Features and Visualizations](#key-features-and-visualizations)
 5. [Screenshots](#screenshots)
 6. [Prerequisites](#prerequisites)
 7. [Installation](#installation)
@@ -16,9 +16,7 @@ Power BI Interactive Attrition Report for HR Analytics Dataset
 9. [Customization](#customization)
 10. [DAX Measures](#dax-measures)
 11. [Project Structure](#project-structure)
-12. [Contributing](#contributing)
-13. [License](#license)
-14. [Contact](#contact)
+12. [Contact](#contact)
 
 ---
 
@@ -86,7 +84,7 @@ Data cleaning and preprocessing were performed in Python before importing into P
 
 The cleaned file `Cleaned Data.csv` is used as the source in the Power BI report.
 
-## Key Features & Visualizations & Visualizations
+## Key Features and Visualizations
 
 * **KPI Cards:** Total Employees, Total Attritions, Attrition Rate, Average Salary, Average Years, Average Age, Average Job Satisfaction.
 * **Bar Chart:** Attrition by Salary Bands (Upto 5k, 5k–10k, 10k–15k, 15k+).
@@ -164,8 +162,8 @@ Attrition_Rate = SUM('Cleaned Data'[Attrition_Count]) / SUM('Cleaned Data [Emplo
 │   ├── attrition-report.png
 │   └── tooltip-page.png
 ├── data/                  
-│   └── Cleaned Data.csv
-│   └── Raw Data.csv
+│   └── Cleaned Data.csv   # Cleaned and Preprocessed Data
+│   └── Raw Data.csv       # Raw and Uncleaned Data
 ├── preprocessing.ipynb    # Python notebook for data cleaning
 ├── Attrition Dashboard.pbix            # Power BI report file
 └── README.md              # Project documentation
