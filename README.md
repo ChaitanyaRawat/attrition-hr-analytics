@@ -117,8 +117,8 @@ The cleaned file `Cleaned Data.csv` is used as the source in the Power BI report
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/hr-analytics-dashboard.git
-   cd hr-analytics-dashboard
+   git clone https://github.com/ChaitanyaRawat/attrition-hr-analytics.git
+   cd attrition-hr-analytics
    ```
 
 2. **Run Python preprocessing script**
