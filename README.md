@@ -1,6 +1,6 @@
 # HR Analytics Dashboard
 
-**Project Title**
+
 Power BI Interactive Attrition Report for HR Analytics Dataset
 
 **Table of Contents**
